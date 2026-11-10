@@ -45729,11 +45729,11 @@ a.u-link.u-text-hover-color-var.hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 80px;
+  min-height: 112px;
 }
 
 .u-header .u-menu-1 {
-  margin: 22px auto 26px 0;
+  margin: 21px auto 0 -2px;
 }
 
 .u-header .u-nav-1 {
@@ -45748,9 +45748,26 @@ a.u-link.u-text-hover-color-var.hover {
   font-size: 1.25rem;
   margin: 20px auto 0;
 }
+
+.u-header .u-image-1 {
+  width: 91px;
+  height: 91px;
+  margin: -32px 0 0 auto;
+}
+
+.u-header .u-logo-image-1 {
+  width: 100%;
+  height: 100%;
+}
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
+    margin-left: -2px;
+  }
+
+  .u-header .u-image-1 {
+    width: 91px;
+    margin-top: -32px;
   }
 }
 
